@@ -1,0 +1,6 @@
+services:
+  srv:
+    image: craigarms/ansible-client:latest
+    environment:
+      - ROOT_PASSWORD=rootroot
+      - ANSIBLE_PASSWORD=ansibleansible
